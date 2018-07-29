@@ -585,7 +585,7 @@ var Fullpage = function (_React$Component) {
   }, {
     key: 'onScrollAction',
     value: function onScrollAction(_ref) {
-      var direction = _ref.direction,
+      var direction = 'HORIZONTAL',
           intent = _ref.intent,
           startEvent = _ref.startEvent;
 
